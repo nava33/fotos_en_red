@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
             child: new Column(
           children: <Widget>[
             // Load image from network
-            new Image.network('https://github.com/nava33/imagenes/blob/98fda25daad996458a1f7a1ca6b7fbc5c17defd4/logoflutter.png?raw=true'),
+            new Image.network('https://github.com/nava33/imagenes/blob/main/logoflutter.png?raw=true'),
             // even loads gifs
             // Gif image from Giphy, all copyrights are owned by Giphy
             new Image.network('https://github.com/nava33/imagenes/blob/main/avispa.gif?raw=true'),
