@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
             child: new Column(
           children: <Widget>[
             // Load image from network
-            new Image.network('https://github.com/nava33/imagenes/blob/788620fdd4bd6bd5fc66f96105aa8ed0348a3e01/logoflutter.png'),
+            new Image.network('https://github.com/nava33/imagenes/blob/98fda25daad996458a1f7a1ca6b7fbc5c17defd4/logoflutter.png?raw=true'),
             // even loads gifs
             // Gif image from Giphy, all copyrights are owned by Giphy
-            new Image.network('https://github.com/nisrulz/flutter-examples/raw/develop/image_from_network/img/loop_anim.gif'),
+            // new Image.network(),
           ],
         )),
       ),
